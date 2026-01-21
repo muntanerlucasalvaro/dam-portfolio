@@ -1,0 +1,14 @@
+html{
+    background-color: bisque;}
+@font-face {
+font-family: "Rubik";
+src: url(Rubik-Regular.ttf);
+}
+h1,h2 { 
+    font-family: 'Rubik','Times New Roman', Times, serif;
+}
+.colorVerd
+{
+color: green;
+}
+#xarxes{border: 3px,solid}

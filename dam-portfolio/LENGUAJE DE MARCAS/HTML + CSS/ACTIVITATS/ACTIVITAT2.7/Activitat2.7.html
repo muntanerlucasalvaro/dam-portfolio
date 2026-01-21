@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+form label { display: block;}
+form input,
+form button { display: block; width: 100%; max-width: 300px;}
+</style>
+        <meta charset="UFT-8">
+        <meta lang="ES">
+        <meta name="Activitat2.7" content="Formulario">
+    </head>
+    <header>
+        <h1>Activitat 2.7</h1>
+    </header>
+    <body>
+        <form action="confirmacionform.html">
+            <p>
+                <label>Nombre:
+                <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+                </label>
+            </p>
+            <p>
+                <label>Edad:
+                <input type="number" min="18" max="120" id="edad_usuario" name="edad_usuario" required>
+                </label>
+            </p>
+             <p>
+                <label>Correo Electronico:
+                <input type="email" id="email_usuario" name="email_usuario" required>
+            </p>
+             <p>
+                <label>Contraseña:</label>
+                <input type="password" minlength="6" maxlength="12" id="contraseña_usuario" name="contraseña_usuario" required>
+                </label>
+            </p>
+            <p>
+                <select name="selector_consoles" multiple size="9">
+                    <optgroup label="consolas de casa">
+                        <option>PS5</option>
+                        <option>Xbox Series X</option>
+                        <option>Xbox Series S</option>
+                    </optgroup>
+                    <optgroup label="consolas portátiles">
+                        <option>Nintendo Switch 2</option>
+                        <option>Nintendo Switch Lite</option>
+                        <option>Nintendo 3DS</option>
+                    </optgroup>
+                </select>
+                <label>Idioma
+                <input type="radio" id="castellano" name="Idioma" value="castellano">Castellano</input>
+                <input type="radio" id="catalán" name="Idioma" value="catalán">Catalán</input>
+                </label>
+            </p>
+            <p>
+                <label>Recibir información por correo electronico:
+                <input type="checkbox" id="opcion1" name="opcion1">
+                </label>
+            </p>
+            <p>
+                <label>Campo para comentar:
+                <textarea cols="50" rows="7" id="comentario" name="comentario"></textarea>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <button type="submit" id="enviar" name="enviar" target="blank">submit</button>
+                </label>
+            </p>
+        </form>
+    </body>
+
+</html>

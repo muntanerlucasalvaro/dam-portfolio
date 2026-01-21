@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="esp">
+    <head>
+        <meta charset="UTF-8">
+        <title>Examen Primera Evaluacion</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <header>
+            <h1>Juegos Online Cide</h1>
+            <h3>Página donde encontraras diferentes juegos clásicos</h3>
+        </header>
+        <main>
+            <section id="menu">
+                <a href="index.html"><strong>Inicio</strong></a> <a href="juegos.html"><strong>Juegos</strong></a>
+            </section>
+            <section>
+                <form action="juegos.html" target="_blank" method="get">
+                    <p>
+                        <label for="nick" id="nick">Nick:</label>
+                    <input type="text" required>
+                    </p>
+                    <p>
+                    <label for="edad" id="edad">Edad:</label>
+                    <input type="number" min="18" required>
+                    </p>
+                    <p>
+                    <label for="juegos" id="juegos">Juegos:</label>
+                    <select required>
+                        <option>Buscaminas</option>
+                        <option>Memory</option>
+                    </select>
+                    </p>
+                    <label for="selectorNivel" id="selectorNivel">Nivel:</label>
+                    <select required>
+                        <option>Fácil</option>
+                        <option>Intermedio</option>
+                        <option>Difícil</option>
+                    </select>
+                    </p>
+                    <p>
+                    <label for="jugar" id="jugar"></label>
+                    <button type="submit">Jugar</button>
+                    </p>
+                </form>
+            </section>
+            <section>
+                <details>
+                    <summary>Más información</summary>
+                    <div>Si quieres obtener más información sobre los juegos, revisa este video.</div>
+                    <div><video src="https://www.youtube.com/embed/jRgtwnF9fgk"></div>
+                </details>
+            </section>
+        </main>
+        <footer>
+        <p>&copy2025 Juegos online Cide</p>
+        </footer>
+    </body>
+</html>

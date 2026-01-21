@@ -1,0 +1,7 @@
+*{font-family: arial; background-color: #ffffff;}
+h1,h2{color: #2e7d32;}
+header,section,footer{box-shadow: 0px 2px 6px rgba(0, 0, 0);}
+button{color: #ffffff; max-width: ;background-color: #2e7d32; width: max-content; border: #ffffff;max-height: max-content;}
+#desplegable{background-color:#c8e6c9 ; border-color: #2e7d32;}
+th{text-align: center; color: #ffffff; max-width: ;background-color: #2e7d32; width: max-content; border: #2e7d32;}
+label{display: block;}
